@@ -1,0 +1,17 @@
+@import '../../styles/reset.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todosForm__input{
+    padding: 5px !important;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.todosForm{
+    border: none;
+}
+.todosForm__input:focus{
+    outline: none !important;
+}
